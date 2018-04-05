@@ -1,0 +1,45 @@
+{
+  "name": "reference-mock-server",
+  "version": "0.8.0",
+  "description": "Read/Write API mock data server",
+  "author": "Open Banking Limited",
+  "main": "lib/index.js",
+  "engines": {
+    "node": "8.4.0"
+  },
+  "scripts": {
+    "foreman": "./node_modules/foreman/nf.js start",
+    "start": "node index.js",
+    "eslint": "node ./node_modules/eslint/bin/eslint.js .",
+    "checks": "npm run eslint && npm test ",
+    "test": "NODE_ENV=test DEBUG=error mocha --recursive",
+    "test:watch": "NODE_ENV=test DEBUG=error mocha --watch --recursive",
+    "test:debug": "NODE_ENV=test node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts --recursive"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "env-var": "3.0.2",
+    "express": "^4.15.5",
+    "mkdirp": "^0.5.1",
+    "morgan": "^1.9.0",
+    "nock": "^9.0.22",
+    "swagger-express-middleware": "^1.0.0-alpha.12",
+    "swagger-tools": "^0.10.3",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "foreman": "^2.0.0",
+    "mocha": "^3.5.0",
+    "node-mocks-http": "^1.6.6",
+    "proxyquire": "1.8.0",
+    "sinon": "^4.0.0",
+    "supertest": "^3.0.0"
+  }
+}

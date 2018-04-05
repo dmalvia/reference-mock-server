@@ -1,0 +1,46 @@
+{
+  "Data": {
+    "Balance": [{
+      "AccountId": "22290",
+      "Amount": {
+        "Amount": "5800.00",
+        "Currency": "GBP"
+      },
+      "CreditDebitIndicator": "Credit",
+      "Type": "InterimBooked",
+      "DateTime": "2017-04-05T10:43:07+00:00",
+      "CreditLine": [{
+        "Included": true,
+        "Amount": {
+          "Amount": "1000.00",
+          "Currency": "GBP"
+        },
+        "Type": "Pre-Agreed"
+      }]
+    },
+    {
+      "AccountId": "22290",
+      "Amount": {
+        "Amount": "4850.23",
+        "Currency": "GBP"
+      },
+      "CreditDebitIndicator": "Credit",
+      "Type": "InterimAvailable",
+      "DateTime": "2017-04-05T10:43:07+00:00",
+      "CreditLine": [{
+        "Included": true,
+        "Amount": {
+          "Amount": "1000.00",
+          "Currency": "GBP"
+        },
+        "Type": "Pre-Agreed"
+      }]
+    }]
+  },
+  "Links": {
+    "Self": "/accounts/22290/balances"
+  },
+  "Meta": {
+    "TotalPages": 1
+  }
+}

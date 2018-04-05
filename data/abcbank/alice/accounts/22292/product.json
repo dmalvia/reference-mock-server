@@ -1,0 +1,16 @@
+{
+  "Data": {
+    "Product": [{
+      "AccountId": "22292",
+      "ProductIdentifier": "CC",
+      "ProductType": "PCA",
+      "ProductName": "321 International Current Account Switcher"
+    }]
+  },
+  "Links": {
+    "Self": "/accounts/22292/product"
+  },
+  "Meta": {
+    "TotalPages": 1
+  }
+}

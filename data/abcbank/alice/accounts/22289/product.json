@@ -1,0 +1,16 @@
+{
+  "Data": {
+    "Product": [{
+      "AccountId": "22289",
+      "ProductIdentifier": "CC",
+      "ProductType": "PCA",
+      "ProductName": "321"
+    }]
+  },
+  "Links": {
+    "Self": "/accounts/22289/product"
+  },
+  "Meta": {
+    "TotalPages": 1
+  }
+}

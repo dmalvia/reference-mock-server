@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: ob/reference-mock-server
+    ports:
+     - "8001:8001"

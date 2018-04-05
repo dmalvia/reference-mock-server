@@ -1,0 +1,46 @@
+{
+  "Data": {
+    "Balance": [{
+      "AccountId": "22291",
+      "Amount": {
+        "Amount": "9520.01",
+        "Currency": "GBP"
+      },
+      "CreditDebitIndicator": "Credit",
+      "Type": "ClosingBooked",
+      "DateTime": "2017-04-05T10:43:07+00:00",
+      "CreditLine": [{
+        "Included": true,
+        "Amount": {
+          "Amount": "1000.00",
+          "Currency": "GBP"
+        },
+        "Type": "Pre-Agreed"
+      }]
+    },
+    {
+      "AccountId": "22291",
+      "Amount": {
+        "Amount": "9520.01",
+        "Currency": "GBP"
+      },
+      "CreditDebitIndicator": "Credit",
+      "Type": "ClosingAvailable",
+      "DateTime": "2017-04-05T10:43:07+00:00",
+      "CreditLine": [{
+        "Included": true,
+        "Amount": {
+          "Amount": "1000.00",
+          "Currency": "GBP"
+        },
+        "Type": "Pre-Agreed"
+      }]
+    }]
+  },
+  "Links": {
+    "Self": "/accounts/22291/balances"
+  },
+  "Meta": {
+    "TotalPages": 1
+  }
+}

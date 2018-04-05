@@ -1,0 +1,16 @@
+{
+  "Data": {
+    "Product": [{
+      "AccountId": "22291",
+      "ProductIdentifier": "CC",
+      "ProductType": "PCA",
+      "ProductName": "312 Gold Current Account"
+    }]
+  },
+  "Links": {
+    "Self": "/accounts/22291/product"
+  },
+  "Meta": {
+    "TotalPages": 1
+  }
+}
